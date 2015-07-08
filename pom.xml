@@ -10,7 +10,6 @@
   <groupId>org.szkiler.hsa</groupId>
   <artifactId>HSAnalytics</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
   <name>HSAnalytics</name>
 
 	<properties>
@@ -147,9 +146,4 @@
 			<url>http://snapshots.openimaj.org</url>
 		</repository>
 	</repositories>
-	<modules>
-		<module>org.szkiler.hsa.core</module>
-		<module>org.szkiler.hsa.app</module>
-		<module>org.szkiler.hsa.app.ui</module>
-	</modules>
 </project>
