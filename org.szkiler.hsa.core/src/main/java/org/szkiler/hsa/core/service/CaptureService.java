@@ -1,4 +1,6 @@
-package org.szkiler.hsa.core.service;
+package src.main.java.org.szkiler.hsa.core.service;
+
+
 
 public interface CaptureService {
 
