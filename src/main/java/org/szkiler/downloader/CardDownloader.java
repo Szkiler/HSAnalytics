@@ -12,6 +12,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class CardDownloader {
+	
+	//Szkiler dane do przegladarny i te zwiazanie z polaczeniem http tez chyba na wierz trzeba wyrzucic co? W kazdym razie sa one
+	//w metodzie connectToWebsiteAndGetHtmlDocument
+	
+	
 	// Configuration Data:
 	// The url of the website
 	private static String webSiteURL = "http://www.gosugamers.net/hearthstone/cards?page=1";
