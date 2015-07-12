@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+ <head> 
+  <meta charset="utf-8" /> 
+  <base href="http://www.gosugamers.net/hearthstone/" /> 
+  <title>Hearthstone Card Database | GosuGamers</title> 
+  <meta name="description" content="A full collection of all Hearthstone cards in existence, filterable and sortable by multiple criteria. Each card also has its own with its stats and patch history." /> 
+  <link href="/css/d14601e9255399a46a7d231fc5b96f4c.css?1435324264" media="screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/f52dbf96e2489f472a081b356de20017.css?1433845218" media="screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/f974cf9f485922fae8d8f4aa4616e1ea.css?1433844021" media="screen" rel="stylesheet" type="text/css" /> 
+  <script type="text/javascript" src="/js/9769d73ddcf888c2b4b4d35d282f010a.js?1431532820"></script> 
+  <script>
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments);
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m);
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-341903-1', 'gosugamers.net');
+                ga('require', 'displayfeatures');
+                ga('send', 'pageview');
+            </script> 
+  <!-- Begin comScore Tag --> 
+  <script>
+                var _comscore = _comscore || [];
+                _comscore.push({c1: "2", c2: "18963882"});
+                (function () {
+                    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+                    s.async = true;
+                    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script> 
+  <!-- End comScore Tag --> 
+  <link href="https://plus.google.com/+GosugamersNet-eSports" rel="publisher" /> 
+  <link href="/styles/font/Open-Sans.css" rel="stylesheet" type="text/css" /> 
+ </head> 
+ <body class="body-hearthstone"> 
+  <div id="top-bar" class="row"> 
+   <div class="container"> 
+    <div id="top-bar-social-media"> 
+     <a href="https://www.facebook.com/GosuGamers" title="Follow us on Facebook" target="_blank"> <span>Facebook</span> </a> 
+     <a href="https://twitter.com/GosuGamers" title="Follow us on Twitter" target="_blank"> <span>Twitter</span> </a> 
+     <a href="https://www.youtube.com/user/gosugamersnet" title="Follow us on YouTube" target="_blank"> <span>YouTube</span> </a> 
+     <a href="http://steamcommunity.com/groups/gosugamersnet" title="Follow us on our Steam Group" target="_blank"> <span>Steam Group</span> </a> 
+     <a href="https://plus.google.com/+GosugamersNet-eSports/" title="Follow us on Google+" target="_blank"> <span>Google+</span> </a> 
+    </div> 
+    <div class="extra"> 
+     <div id="guest"> 
+      <a href="/login?from=%2Fhearthstone%2Fcards" class="login"> <span>Login</span> </a> 
+      <a href="/register" class="register"> <span>Sign up</span> </a> 
+      <a href="/login/steam" id="sits"> <span>Sign in through STEAM</span> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="header" class="row"> 
+   <div class="container"> 
+    <a href="/"><img src="/images/themes/default/gglogo.png" id="logo" alt="GosuGamers" /></a> 
+    <div id="nav-1" class="nav"> 
+     <ul class="menu">
+      <li><a href="/">Latest</a></li> 
+      <li><a href="/dota2">Dota 2</a></li> 
+      <li><a href="/counterstrike">CS:GO</a></li> 
+      <li class="active"><a href="/hearthstone">Hearthstone <span class="active"></span></a></li> 
+      <li><a href="/heroesofthestorm">Heroes of the Storm</a></li> 
+      <li><a href="/lol">League of Legends</a></li> 
+      <li><a href="/legacy">Legacy</a></li>
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="page"> 
+   <div id="billboard-ad" class="container"> 
+    <div id="cdm-zone-01"></div> 
+   </div> 
+   <div class="container"> 
+    <div id="content" class="clearfix"> 
+     <div id="submenu-holder"> 
+      <div id="submenu-actual"> 
+       <div class="logo-small"> 
+        <a href="/"><img src="/images/themes/default/gglogo-small.png" id="logo-small" alt="GosuGamers" /></a> 
+       </div> 
+       <div id="nav-2" class="nav"> 
+        <ul class="menu"> 
+         <li class="section-url"> <a href="/hearthstone"> <img src="/images/icons/games/hearthstone.png" title="Hearthstone" alt="Hearthstone" class="icon game-icon" /> Hearthstone </a> 
+          <ul class="section-dropdown menu"> 
+           <li><a href="/"><img src="/images/icons/games/general.png" class="icon game-icon" /> Latest</a></li> 
+           <li><a href="/dota2"><img src="/images/icons/games/dota2.png" class="icon game-icon" /> Dota 2</a></li> 
+           <li><a href="/counterstrike"><img src="/images/icons/games/counterstrike.png" class="icon game-icon" /> CS:GO</a></li> 
+           <li><a href="/heroesofthestorm"><img src="/images/icons/games/heroesofthestorm.png" class="icon game-icon" /> Heroes of the Storm</a></li> 
+           <li><a href="/lol"><img src="/images/icons/games/lol.png" class="icon game-icon" /> League of Legends</a></li> 
+           <li><a href="/legacy"><img src="/images/icons/games/legacy.png" class="icon game-icon" /> Legacy</a></li> 
+          </ul> </li> 
+         <li><a href="/hearthstone/events">Events</a></li> 
+         <li><a href="/hearthstone/gosubet">Matches</a></li> 
+         <li><a href="/hearthstone/rankings">Rankings</a></li> 
+         <li><a href="/hearthstone/class-stats">Stats</a></li> 
+         <li><a href="/hearthstone/streams">Streams</a></li> 
+         <li><a href="/hearthstone/vods">VODs</a></li> 
+         <li class="active"><a href="/hearthstone/cards">Cards <span class="active"></span></a></li> 
+         <li><a href="/hearthstone/decks">Decks</a></li> 
+         <li><a href="/hearthstone/deckbuilder">Deckbuilder</a></li> 
+         <li><a rel="nofollow" href="/forums/categories/hearthstone/">Forums<label>new</label></a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="columns"> 
+      <div id="col1" class="rows"> 
+       <div class="box"> 
+        <h1>Hearthstone Cards</h1> 
+        <div class="content"> 
+         <form> 
+          <input type="hidden" name="viewMode" value="" id="viewMode" /> 
+          <table class="filter-table"> 
+           <tbody> 
+            <tr> 
+             <td><label for="name">Name</label></td> 
+             <td class="fullfield"> <input type="text" name="name" id="name" value="" /> <input type="hidden" name="textMode" value="0" /><input type="checkbox" name="textMode" id="textMode" value="1" /><span>Extras</span><i style="margin-left: 3px; font-size: 15px;" title="Search the cards description as well." class="fa fa-info-circle fa-fw tooltip"></i> </td> 
+            </tr> 
+            <tr> 
+             <td><label for="mana">Mana</label></td> 
+             <td class="smallfields"> <select name="manaMin" id="manaMin"> <option value=""></option> <option value="0">0</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> </select> <span>to</span> <select name="manaMax" id="manaMax"> <option value=""></option> <option value="0">0</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> </select> </td> 
+            </tr> 
+            <tr> 
+             <td><label for="attack">Attack</label></td> 
+             <td class="smallfields"> <select name="attackMin" id="attackMin"> <option value=""></option> <option value="0">0</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> </select> <span>to</span> <select name="attackMax" id="attackMax"> <option value=""></option> <option value="0">0</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> </select> </td> 
+            </tr> 
+            <tr> 
+             <td><label for="health">Health</label></td> 
+             <td class="smallfields"> <select name="healthMin" id="healthMin"> <option value=""></option> <option value="0">0</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> </select> <span>to</span> <select name="healthMax" id="healthMax"> <option value=""></option> <option value="0">0</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> </select> </td> 
+            </tr> 
+            <tr> 
+             <td><label for="mechanics">Mechanics</label></td> 
+             <td><select name="mechanics[]" id="mechanics" multiple="multiple"> <option value="1">Taunt</option> <option value="2">Battlecry</option> <option value="3">Charge</option> <option value="4">Choose One</option> <option value="5">Combo</option> <option value="6">Deathrattle</option> <option value="7">Divine Shield</option> <option value="8">Enrage</option> <option value="9">Freeze</option> <option value="10">Overload</option> <option value="11">Poison</option> <option value="12">Secret</option> <option value="13">Silence</option> <option value="14">Stealth</option> <option value="15">Spell Damage</option> <option value="16">Summon</option> <option value="17">Windfury</option> <option value="18">Mega-Windfury</option> </select></td> 
+            </tr> 
+            <tr> 
+             <td></td> 
+             <td class="radiofields"><label><input type="radio" name="mechanicsMode" id="mechanicsMode-0" value="0" checked="checked" /> Any</label><label><input type="radio" name="mechanicsMode" id="mechanicsMode-1" value="1" /> All</label></td> 
+            </tr> 
+           </tbody> 
+          </table> 
+          <table class="filter-table"> 
+           <tbody> 
+            <tr> 
+             <td><label for="version">Version</label></td> 
+             <td><select name="version" id="version"> <option value=""></option> <option value="1003140">1.0.0.3140</option> <option value="1003388">1.0.0.3388</option> <option value="1003604">Alpha patch 2</option> <option value="1003664">1.0.0.3664</option> <option value="1003749">1.0.0.3749</option> <option value="1003890">1.0.0.3890</option> <option value="1003937">1.0.0.3937</option> <option value="1004217">1.0.0.4217</option> <option value="1004243">1.0.0.4243</option> <option value="1004458">1.0.0.4458</option> <option value="1004482">1.0.0.4482</option> <option value="1004944">1.0.0.4944</option> <option value="1005314">1.0.0.5314</option> <option value="1106024">Curse of Naxxramas</option> <option value="1206485">1.2.0.6485</option> <option value="2007234">Goblins vs Gnomes</option> <option value="2107628">Undertaker Nerf</option> <option value="2408311">Blackrock Mountain</option> </select></td> 
+            </tr> 
+            <tr> 
+             <td><label for="class">Class</label></td> 
+             <td><select name="class[]" id="class" multiple="multiple"> <option value="">Neutral</option> <option value="11">Warrior</option> <option value="12">Paladin</option> <option value="13">Druid</option> <option value="14">Rogue</option> <option value="15">Warlock</option> <option value="16">Hunter</option> <option value="17">Shaman</option> <option value="18">Mage</option> <option value="19">Priest</option> </select></td> 
+            </tr> 
+            <tr> 
+             <td><label for="rarity">Rarity</label></td> 
+             <td><select name="rarity[]" id="rarity" multiple="multiple"> <option value="0">Free</option> <option value="1">Common</option> <option value="2">Rare</option> <option value="3">Epic</option> <option value="4">Legendary</option> </select></td> 
+            </tr> 
+            <tr> 
+             <td><label for="type">Type</label></td> 
+             <td><select name="type" id="type"> <option value=""></option> <option value="0">Ability</option> <option value="1">Minion</option> <option value="2">Weapon</option> </select></td> 
+            </tr> 
+            <tr> 
+             <td><label for="race">Race</label></td> 
+             <td><select name="race" id="race"> <option value=""></option> <option value="0">General</option> <option value="1">Beast</option> <option value="2">Demon</option> <option value="3">Dragon</option> <option value="4">Murloc</option> <option value="5">Pirate</option> <option value="6">Totem</option> <option value="7">Mech</option> </select></td> 
+            </tr> 
+            <tr> 
+             <td></td> 
+             <td> <input type="submit" name="filter" id="filter" value="Filter" /> </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </form> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="col2" class="rows"> 
+       <div id="box-ad" class="ad fixed-box-ad"> 
+        <div id="cdm-zone-02"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="columns"> 
+      <div id="col3" class="rows"> 
+       <div class="box"> 
+        <h2> <a href="/hearthstone/cards?sort=c.name-asc" class="sort">Name</a>, <a href="/hearthstone/cards?sort=cv.mana-asc" class="sort">Mana</a>, <a href="/hearthstone/cards?sort=cv.attack-asc" class="sort">Attack</a>, <a href="/hearthstone/cards?sort=cv.health-asc" class="sort">Health</a> 
+         <div class="righted"> 
+          <a id="list-show-cards" class="viewMode-button">Cards</a> 
+          <a id="list-show-text" class="viewMode-button">List</a> 
+         </div> </h2> 
+        <div class="content content-list"> 
+         <div id="paginator-053ada05" class="paginator"> 
+          <div class="viewing">
+            Showing 1 to 20 of 564 Cards 
+          </div> 
+          <div class="pages"> 
+           <a href="/hearthstone/cards?page=1" class="selected"> 1 </a> 
+           <a href="/hearthstone/cards?page=2"> 2 </a> 
+           <a href="/hearthstone/cards?page=3"> 3 </a> 
+           <a href="/hearthstone/cards?page=4"> 4 </a> 
+           <a href="/hearthstone/cards?page=5"> 5 </a> 
+           <a href="/hearthstone/cards?page=2"> <span>Next</span><i class="fa fa-angle-right fa-fw"></i> </a> 
+           <a href="/hearthstone/cards?page=29"> <span>Last</span><i class="fa fa-angle-double-right fa-fw"></i> </a> 
+          </div> 
+         </div> 
+         <div id="card-list-holder"> 
+          <div id="card-list-cards" style="display: none;"> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/538-rend-blackhand"> <img src="/uploads/images/cards/538-9999999-standard-1426025209.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/539-grim-patron"> <img src="/uploads/images/cards/539-9999999-standard-1426025288.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/540-hungry-dragon"> <img src="/uploads/images/cards/540-9999999-standard-1426025359.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/541-blackwing-technician"> <img src="/uploads/images/cards/541-9999999-standard-1426025463.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/542-dark-iron-skulker"> <img src="/uploads/images/cards/542-9999999-standard-1426025542.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/543-lava-shock"> <img src="/uploads/images/cards/543-9999999-standard-1426025616.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/544-axe-flinger"> <img src="/uploads/images/cards/544-9999999-standard-1426025675.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/545-dragon-egg"> <img src="/uploads/images/cards/545-9999999-standard-1426786239.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/546-dragonkin-sorcerer"> <img src="/uploads/images/cards/546-9999999-standard-1426786333.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/547-flamewaker"> <img src="/uploads/images/cards/547-9999999-standard-1427116210.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/548-core-rager"> <img src="/uploads/images/cards/548-9999999-standard-1427116269.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/549-imp-gang-boss"> <img src="/uploads/images/cards/549-9999999-standard-1427116386.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/550-blackwing-corruptor"> <img src="/uploads/images/cards/550-9999999-standard-1427276368.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/551-dragon-s-breath"> <img src="/uploads/images/cards/551-9999999-standard-1427276597.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/552-nefarian"> <img src="/uploads/images/cards/552-9999999-standard-1427450204.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/553-drakonid-crusher"> <img src="/uploads/images/cards/553-9999999-standard-1427450295.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/554-volcanic-drake"> <img src="/uploads/images/cards/554-9999999-standard-1427450359.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/555-chromaggus"> <img src="/uploads/images/cards/555-9999999-standard-1427742020.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/556-dragon-consort"> <img src="/uploads/images/cards/556-9999999-standard-1427742120.png" /> </a> 
+           </div> 
+           <div class="card-list-cards-item"> 
+            <a href="cards/557-quick-shot"> <img src="/uploads/images/cards/557-9999999-standard-1427741888.png" /> </a> 
+           </div> 
+          </div> 
+          <div id="card-list-text" style="display: none;"> 
+           <table> 
+            <tbody>
+             <tr> 
+              <th>Name</th> 
+              <th>Class</th> 
+              <th>Type</th> 
+              <th>Cost</th> 
+              <th>Attack</th> 
+              <th>Health</th> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/538-rend-blackhand" class="card-link card-quality-legendary" data-card="/uploads/images/cards/538-9999999-standard-1426025209.png">Rend Blackhand</a><br /> <span class="card-description"><strong>Battlecry:</strong> If you're holding a Dragon, destroy a <strong>Legendary</strong> minion.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 7</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 8</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 4</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/539-grim-patron" class="card-link card-quality-rare" data-card="/uploads/images/cards/539-9999999-standard-1426025288.png">Grim Patron</a><br /> <span class="card-description">Whenever this minion survives damage, summon another Grim patron.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 5</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 3</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 3</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/540-hungry-dragon" class="card-link card-quality-common" data-card="/uploads/images/cards/540-9999999-standard-1426025359.png">Hungry Dragon</a><br /> <span class="card-description"><strong>Battlecry:</strong> Summon a random 1-Cost minion for your opponent.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 4</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 5</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 6</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/541-blackwing-technician" class="card-link card-quality-common" data-card="/uploads/images/cards/541-9999999-standard-1426025463.png">Blackwing Technician</a><br /> <span class="card-description"><strong>Battlecry:</strong> If you're holding a Dragon, gain +1/+1.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 3</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 2</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 4</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/542-dark-iron-skulker" class="card-link card-quality-rare" data-card="/uploads/images/cards/542-9999999-standard-1426025542.png">Dark Iron Skulker</a><br /> <span class="card-description"><strong>Battlecry:</strong> Deal 2 damage to all undamaged enemy minions.</span> </td> 
+              <td><span class="card-class-rogue">Rogue </span></td>
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 5</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 4</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 3</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/543-lava-shock" class="card-link card-quality-rare" data-card="/uploads/images/cards/543-9999999-standard-1426025616.png">Lava Shock</a><br /> <span class="card-description">Deal 2 damage. Unlock your <strong>Overloaded</strong> Mana Crystals.</span> </td> 
+              <td><span class="card-class-shaman">Shaman </span></td>
+              <td>Ability</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 2</td> 
+              <td></td> 
+              <td></td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/544-axe-flinger" class="card-link card-quality-common" data-card="/uploads/images/cards/544-9999999-standard-1426025675.png">Axe Flinger</a><br /> <span class="card-description">Whenever this minion takes damage, deal 2 damage to the enemy hero.</span> </td> 
+              <td><span class="card-class-warrior">Warrior </span></td>
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 4</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 2</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 5</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/545-dragon-egg" class="card-link card-quality-rare" data-card="/uploads/images/cards/545-9999999-standard-1426786239.png">Dragon Egg</a><br /> <span class="card-description">Whenever this minion takes damage, summon a 2/1 Whelp.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 1</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 0</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 2</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/546-dragonkin-sorcerer" class="card-link card-quality-common" data-card="/uploads/images/cards/546-9999999-standard-1426786333.png">Dragonkin Sorcerer</a><br /> <span class="card-description">Whenever you target this minion with a spell, gain +1/+1.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 4</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 3</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 5</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/547-flamewaker" class="card-link card-quality-rare" data-card="/uploads/images/cards/547-9999999-standard-1427116210.png">Flamewaker</a><br /> <span class="card-description">After you cast a spell, deal 2 damage randomly split among all enemies.</span> </td> 
+              <td><span class="card-class-mage">Mage </span></td>
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 3</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 2</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 4</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/548-core-rager" class="card-link card-quality-rare" data-card="/uploads/images/cards/548-9999999-standard-1427116269.png">Core Rager</a><br /> <span class="card-description"><strong>Battlecry:</strong> If your hand is empty, gain +3/+3</span> </td> 
+              <td><span class="card-class-hunter">Hunter </span></td>
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 4</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 4</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 4</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/549-imp-gang-boss" class="card-link card-quality-common" data-card="/uploads/images/cards/549-9999999-standard-1427116386.png">Imp Gang Boss</a><br /> <span class="card-description">Whenever this minion takes damage, summon a 1/1 Imp.</span> </td> 
+              <td><span class="card-class-warlock">Warlock </span></td>
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 3</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 2</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 4</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/550-blackwing-corruptor" class="card-link card-quality-common" data-card="/uploads/images/cards/550-9999999-standard-1427276368.png">Blackwing Corruptor</a><br /> <span class="card-description"><strong>Battlecry:</strong> If you're holding a Dragon, deal 3 damage.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 5</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 5</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 4</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/551-dragon-s-breath" class="card-link card-quality-common" data-card="/uploads/images/cards/551-9999999-standard-1427276597.png">Dragon's Breath</a><br /> <span class="card-description">Deal 4 damage. Costs (1) less for each minion that died this turn.</span> </td> 
+              <td><span class="card-class-mage">Mage </span></td>
+              <td>Ability</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 5</td> 
+              <td></td> 
+              <td></td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/552-nefarian" class="card-link card-quality-legendary" data-card="/uploads/images/cards/552-9999999-standard-1427450204.png">Nefarian</a><br /> <span class="card-description"><strong>Battlecry:</strong> Add 2 random spells to your hand (from your opponent's class)</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 9</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 8</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 8</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/553-drakonid-crusher" class="card-link card-quality-common" data-card="/uploads/images/cards/553-9999999-standard-1427450295.png">Drakonid Crusher</a><br /> <span class="card-description"><strong>Battlecry:</strong> If your opponent has 15 or less Health, gain +3/+3/</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 6</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 6</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 6</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/554-volcanic-drake" class="card-link card-quality-common" data-card="/uploads/images/cards/554-9999999-standard-1427450359.png">Volcanic Drake</a><br /> <span class="card-description">Costs (1) less for each minion that died this turn.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 6</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 6</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 4</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/555-chromaggus" class="card-link card-quality-legendary" data-card="/uploads/images/cards/555-9999999-standard-1427742020.png">Chromaggus</a><br /> <span class="card-description">Whenever you draw a card, put another copy into your hand.</span> </td> 
+              <td></td> 
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 8</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 6</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 8</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/556-dragon-consort" class="card-link card-quality-rare" data-card="/uploads/images/cards/556-9999999-standard-1427742120.png">Dragon Consort</a><br /> <span class="card-description"><strong>Battlecry:</strong> The next Dragon you play costs (2) less.</span> </td> 
+              <td><span class="card-class-paladin">Paladin </span></td>
+              <td>Minion</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 5</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-attack.png" /> 5</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-health.png" /> 5</td> 
+             </tr> 
+             <tr> 
+              <td width="400"> <a href="cards/557-quick-shot" class="card-link card-quality-common" data-card="/uploads/images/cards/557-9999999-standard-1427741888.png">Quick Shot</a><br /> <span class="card-description">Deal 3 damage. If your hand is empty, draw a card.</span> </td> 
+              <td><span class="card-class-hunter">Hunter </span></td>
+              <td>Ability</td> 
+              <td><img class="hs-icon" src="/images/icons/hearthstone/hs-mana.png" /> 2</td> 
+              <td></td> 
+              <td></td> 
+             </tr> 
+            </tbody>
+           </table> 
+          </div> 
+         </div> 
+         <div id="paginator-30c4b90f" class="paginator"> 
+          <div class="viewing">
+            Showing 1 to 20 of 564 Cards 
+          </div> 
+          <div class="pages"> 
+           <a href="/hearthstone/cards?page=1" class="selected"> 1 </a> 
+           <a href="/hearthstone/cards?page=2"> 2 </a> 
+           <a href="/hearthstone/cards?page=3"> 3 </a> 
+           <a href="/hearthstone/cards?page=4"> 4 </a> 
+           <a href="/hearthstone/cards?page=5"> 5 </a> 
+           <a href="/hearthstone/cards?page=2"> <span>Next</span><i class="fa fa-angle-right fa-fw"></i> </a> 
+           <a href="/hearthstone/cards?page=29"> <span>Last</span><i class="fa fa-angle-double-right fa-fw"></i> </a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+    window.viewMode = 0;
+</script> 
+    </div> 
+    <div class="footer full-width"> 
+     <div id="lower-lb-ad"> 
+      <div id="cdm-zone-04"></div> 
+     </div> 
+     <div class="row-5 footer-social"> 
+      <div class="follow-us-text">
+        Follow Us 
+      </div> 
+      <div class=""> 
+       <i class="fa fa-twitter icon-footer" style="border-left: 1px solid #111;line-height: 56px;"></i> 
+       <p class="right-social"> <a href="https://twitter.com/GosuGamers"><label>All e-sports</label> @GosuGamers</a> <a href="https://twitter.com/GosuGamersHS"><label>HearthStone</label> @GosuGamersHS</a> <a href="https://twitter.com/gosugamerscs"><label>CS:GO</label> @GosuGamersCS</a> <a href="https://twitter.com/gosugamershots"><label>Heroes</label> @GosuGamersHotS</a> </p> 
+      </div> 
+      <div class=""> 
+       <i class="fa fa-facebook-square icon-footer" style="line-height: 44px;"></i> 
+       <p class="right-social"> <a href="https://www.facebook.com/GosuGamers"><label>All e-sports</label> GosuGamers</a> <a href="https://www.facebook.com/GosuGamersHS"><label>HearthStone</label> GosuGamersHS</a> <a href="https://www.facebook.com/GosuGamersCS"><label>CS:GO</label> GosuGamersCS</a> </p> 
+      </div> 
+      <div class="single-line"> 
+       <i class="fa fa-steam-square icon-footer"></i> 
+       <p class="right-social"> <a href="http://steamcommunity.com/groups/gosugamersnet"><label>Steam group</label></a> </p> 
+      </div> 
+      <div class="single-line"> 
+       <i class="fa fa-google-plus-square icon-footer"></i> 
+       <p class="right-social" style="border-right:0px;"> <a href="https://plus.google.com/+GosugamersNet-eSports/posts"><label>Google +</label></a> </p> 
+      </div> 
+     </div> 
+     <div class="gg-row footer-top-links"> 
+      <div class="foot-header"> 
+       <div class="col-7"> 
+        <div class="gg-row"> 
+         <div class="col-12"> 
+          <a href=""> <img alt="GosuGamers" class="logo-foot" src="/images/themes/default/gglogo.png" /> </a> 
+         </div> 
+        </div> 
+        <div class="gg-row"> 
+         <div class="col-7"> 
+          <p class="gg-description-text"> World's biggest competitive gaming source of information. Our mission at GosuGamers is to deliver the highest quality e-sports content and coverage. </p> 
+         </div> 
+        </div> 
+        <div class="gg-row foot-main-links"> 
+         <div class="col-3"> 
+          <a href="#" rel="nofollow" onclick="return false;" style="color: rgb(68, 68, 68) !important;"> Shop </a> 
+         </div> 
+         <div class="col-3"> 
+          <a href="gosucrew"> The Crew </a> 
+         </div> 
+         <div class="col-3"> 
+          <a href="/jobs"> Work With Us </a> 
+         </div> 
+         <div class="col-3"> 
+          <a href="/advertise"> Advertise </a> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-5"> 
+        <div id="lower-lb2-ad"> 
+         <div id="cdm-zone-03"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="row-7 footer-bottom-links"> 
+      <div class=""> 
+       <ul> 
+        <li class="foot-parent"> <h2> <a href="/"> E-Sports </a> </h2> </li> 
+        <li> <a href="/events" class="foot-sub-link"> E-Sports Events </a> </li> 
+        <li> <a href="/gosubet" class="foot-sub-link"> E-Sports Matches </a> </li> 
+        <li> <a href="/rankings" class="foot-sub-link"> E-Sports Rankings </a> </li> 
+        <li> <a href="/item-trade-offers" class="foot-sub-link"> E-Sports Trading </a> </li> 
+        <li> <a href="/streams" class="foot-sub-link"> E-Sports Streams </a> </li> 
+        <li> <a href="/replays" class="foot-sub-link"> E-Sports Replays </a> </li> 
+        <li> <a href="/vods" class="foot-sub-link"> E-Sports VODs </a> </li> 
+        <li> <a href="/forums" class="foot-sub-link"> E-Sports Forums </a> </li> 
+       </ul> 
+      </div> 
+      <div class=""> 
+       <ul> 
+        <li class="foot-parent"> <h2> <a href="/dota2"> Dota 2 </a> </h2> </li> 
+        <li> <a href="/dota2/events" class="foot-sub-link"> Dota 2 Events </a> </li> 
+        <li> <a href="/dota2/gosubet" class="foot-sub-link"> Dota 2 Matches </a> </li> 
+        <li> <a href="/dota2/rankings" class="foot-sub-link"> Dota 2 Rankings </a> </li> 
+        <li> <a href="/dota2/hero-stats" class="foot-sub-link"> Dota 2 Stats </a> </li> 
+        <li> <a href="/dota2/item-trade-offers" class="foot-sub-link"> Dota 2 Trading </a> </li> 
+        <li> <a href="/dota2/items" class="foot-sub-link"> Dota 2 Items </a> </li> 
+        <li> <a href="/dota2/streams" class="foot-sub-link"> Dota 2 Streams </a> </li> 
+        <li> <a href="/dota2/vods" class="foot-sub-link"> Dota 2 VODs </a> </li> 
+        <li> <a href="/forums/categories/dota2/" class="foot-sub-link"> Dota 2 Forums </a> </li> 
+       </ul> 
+      </div> 
+      <div class=""> 
+       <ul> 
+        <li class="foot-parent"> <h2> <a href="/lol"> League of Legends </a> </h2> </li> 
+        <li> <a href="/lol/events" class="foot-sub-link"> LoL Events </a> </li> 
+        <li> <a href="/lol/gosubet" class="foot-sub-link"> LoL Matches </a> </li> 
+        <li> <a href="/lol/rankings" class="foot-sub-link"> LoL Rankings </a> </li> 
+        <li> <a href="/lol/pick-stats" class="foot-sub-link"> LoL Stats </a> </li> 
+        <li> <a href="/lol/streams" class="foot-sub-link"> LoL Streams </a> </li> 
+        <li> <a href="/lol/vods" class="foot-sub-link"> LoL VODs </a> </li> 
+        <li> <a href="/forums/categories/lol/" class="foot-sub-link"> LoL Forums </a> </li> 
+       </ul> 
+      </div> 
+      <div class=""> 
+       <ul> 
+        <li class="foot-parent"> <h2> <a href="/hearthstone"> Hearthstone </a> </h2> </li> 
+        <li> <a href="/hearthstone/events" class="foot-sub-link"> HS Events </a> </li> 
+        <li> <a href="/hearthstone/gosubet" class="foot-sub-link"> HS Matches </a> </li> 
+        <li> <a href="/hearthstone/rankings" class="foot-sub-link"> HS Rankings </a> </li> 
+        <li> <a href="/hearthstone/class-stats" class="foot-sub-link"> HS Stats </a> </li> 
+        <li> <a href="/hearthstone/streams" class="foot-sub-link"> HS Streams </a> </li> 
+        <li> <a href="/hearthstone/vods" class="foot-sub-link"> HS VODs </a> </li> 
+        <li> <a href="/hearthstone/cards" class="foot-sub-link"> HS Cards </a> </li> 
+        <li> <a href="/hearthstone/decks" class="foot-sub-link"> HS Decks </a> </li> 
+        <li> <a href="/hearthstone/deckbuilder" class="foot-sub-link"> HS Deckbuilder </a> </li> 
+        <li> <a href="/forums/categories/hearthstone/" class="foot-sub-link"> HS Forums </a> </li> 
+       </ul> 
+      </div> 
+      <div class=""> 
+       <ul> 
+        <li class="foot-parent"> <h2> <a href="/heroesofthestorm"> Heroes of the Storm </a> </h2> </li> 
+        <li> <a href="/heroesofthestorm/events" class="foot-sub-link"> HotS Events </a> </li> 
+        <li> <a href="/heroesofthestorm/gosubet" class="foot-sub-link"> HotS Matches </a> </li> 
+        <li> <a href="/heroesofthestorm/rankings" class="foot-sub-link"> HotS Rankings </a> </li> 
+        <li> <a href="/heroesofthestorm/hero-stats" class="foot-sub-link"> HotS Stats </a> </li> 
+        <li> <a href="/heroesofthestorm/streams" class="foot-sub-link"> HotS Streams </a> </li> 
+        <li> <a href="/heroesofthestorm/vods" class="foot-sub-link"> HotS VODs </a> </li> 
+        <li> <a href="/heroesofthestorm/replays" class="foot-sub-link"> HotS Replays </a> </li> 
+        <li> <a href="/forums/categories/hots/" class="foot-sub-link"> HotS Forums </a> </li> 
+       </ul> 
+      </div> 
+      <div class=""> 
+       <ul> 
+        <li class="foot-parent"> <h2> <a href="/counterstrike"> CS:GO </a> </h2> </li> 
+        <li> <a href="/counterstrike/events" class="foot-sub-link"> CS:GO Events </a> </li> 
+        <li> <a href="/counterstrike/gosubet" class="foot-sub-link"> CS:GO Matches </a> </li> 
+        <li> <a href="/counterstrike/rankings" class="foot-sub-link"> CS:GO Rankings </a> </li> 
+        <li> <a href="/counterstrike/items" class="foot-sub-link"> CS:GO Items </a> </li> 
+        <li> <a href="/counterstrike/item-trade-offers" class="foot-sub-link"> CS:GO Trading </a> </li> 
+        <li> <a href="/counterstrike/streams" class="foot-sub-link"> CS:GO Streams </a> </li> 
+        <li> <a href="/counterstrike/demos" class="foot-sub-link"> CS:GO Demos </a> </li> 
+        <li> <a href="/counterstrike/vods" class="foot-sub-link"> CS:GO VODs </a> </li> 
+        <li> <a href="/forums/categories/counterstrike/" class="foot-sub-link"> CS:GO Forums </a> </li> 
+       </ul> 
+      </div> 
+      <div class=""> 
+       <ul> 
+        <li class="foot-parent"> <h2> <a href="/legacy"> Legacy </a> </h2> </li> 
+        <li> <a class="foot-sub-link" href="/starcraft"> StarCraft </a> </li> 
+        <li> <a class="foot-sub-link" href="/dota"> DotA </a> </li> 
+        <li> <a class="foot-sub-link" href="warcraft3"> Warcraft 3 </a> </li> 
+        <li> <a class="foot-sub-link" href="/starcraft2"> Starcraft 2 </a> </li> 
+        <li> <a class="foot-sub-link" href="/diablo"> Diablo 3 </a> </li> 
+        <li> <a class="foot-sub-link" href="/wow"> WoW </a> </li> 
+        <li> <a class="foot-sub-link" href="/hon"> HoN </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div id="footer"> 
+      <div class="left"> 
+       <div class="leftBottomFooter">
+         Copyright &copy; 2014 GosuGamers.net. All rights reserved. 
+        <a href="http://steampowered.com">Powered by Steam</a> 
+       </div> 
+       <a href="/privacy" title="Privacy Policy">Privacy Policy</a> 
+       <a href="/terms" title="Terms of Use">Terms of Use</a> 
+       <a href="/faq" title="FAQ">FAQ</a> 
+       <a href="/support" title="Support">Support</a> 
+       <a href="/about" title="About">About</a> 
+      </div> 
+      <div class="right"> 
+       <a href="/news/31154-gosugamers-net-running-on-100tb-servers" target="_blank" class="tb100-foot-link"> <img src="/images/default/100tb-footer-logo.png" /> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="takeover-ad"> 
+   <div id="cdm-zone-skin"></div> 
+  </div> 
+  <div id="cdm-zone-end"></div> 
+  <script type="text/javascript" src="/js/95be7554eb364accca4abf801b6210c3.js?1435586999"></script> 
+  <script type="text/javascript" src="/js/0888474e674de01950f0fd545acaa637.js?1431532966"></script> 
+  <script type="text/javascript" src="/js/b8264a667cd7abed14b3e75448cc94aa.js?1431532966"></script> 
+  <!-- Start EU law cookie policy widget Cookie Assistant --> 
+  <div id="cookie_assistant_container" style="display:none"> 
+   <style type="text/css">
+        #cookie_assistant_wrapper{position:fixed !important;width:320px !important;max-width:90% !important;background-color:#fff !important;padding:10px !important;border:1px solid #ccc !important;border-radius:5px !important;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif !important;font-size:12px !important;line-height:15px !important;z-index:9999 !important;box-shadow:0px 5px 10px rgba(0,0,0,0.2)}#cookie_assistant_wrapper.top-left{left:10px !important;top:10px !important}#cookie_assistant_wrapper.top-right{right:10px !important;top:10px !important}#cookie_assistant_wrapper.bottom-left{left:10px !important;bottom:10px !important}#cookie_assistant_wrapper.bottom-right{right:10px !important;bottom:10px !important}#cookie_assistant_wrapper.dark{background-color:#222 !important;color:#fff !important}#cookie_assistant_wrapper.large{width:600px !important}#cookie_assistant_wrapper h2{font-size:14px !important;line-height:16px !important;margin:0 0 4px 0 !important;padding:0 !important}#cookie_assistant_wrapper p{margin:0 !important;padding:0 !important;margin-top:3px !important;margin-bottom:10px !important}#cookie_assistant_wrapper div.buttons{margin:5px 0 3px 0 !important}#cookie_assistant_wrapper a.btn-accept{padding:4px 8px !important;border-radius:3px !important;font-size:12px !important;-moz-border-radius:4px !important;-webkit-border-radius:4px !important;-khtml-border-radius:4px !important;border-radius:4px !important;-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3) !important;-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3) !important;box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3) !important;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;font-weight:bold !important;text-align:center !important;text-decoration:none !important;cursor:pointer !important;outline:none !important;overflow:visible !important;color:#fff !important;background:#a5bd24 !important;background:-moz-linear-gradient(top, #a5bd24 0%, #7dac38 100%) !important;background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #a5bd24), color-stop(100%, #7dac38)) !important;background:-webkit-linear-gradient(top, #a5bd24 0%, #7dac38 100%) !important;background:-o-linear-gradient(top, #a5bd24 0%, #7dac38 100%) !important;background:-ms-linear-gradient(top, #a5bd24 0%, #7dac38 100%) !important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5bd24', endColorstr='#7DAC38',GradientType=0 ) !important;background:linear-gradient(top, #a5bd24 0%, #7dac38 100%) !important;text-shadow:0 1px 1px rgba(0,0,0,0.25) !important;border:1px solid #781 !important}#cookie_assistant_wrapper a.btn-accept:focus,#cookie_assistant_wrapper a.btn-accept:hover{text-decoration:none !important;color:#fff !important;background:#5c8825 !important;background:-moz-linear-gradient(top, #8fbb44 0%, #5c8825 100%) !important;background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #8fbb44), color-stop(100%, #5c8825)) !important;background:-webkit-linear-gradient(top, #8fbb44 0%, #5c8825 100%) !important;background:-o-linear-gradient(top, #8fbb44 0%, #5c8825 100%) !important;background:-ms-linear-gradient(top, #8fbb44 0%, #5c8825 100%) !important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fbb44', endColorstr='#5c8825',GradientType=0 ) !important;background:linear-gradient(top, #8fbb44 0%, #5c8825 100%) !important;border:1px solid #670 !important}#cookie_assistant_wrapper a.btn-more{color:#0088cc !important;font-size:12px !important;margin-left:10px !important}
+    </style> 
+   <script>
+        $(function () {
+            $('.btn-accept').on('click', function (e) {
+                $.cookie("enable_cookies", 'true', {expires: 365});
+                $('#cookie_assistant_container').fadeOut('fast');
+                e.preventDefault();
+                return false;
+            });
+
+            var enabled = $.cookie("enable_cookies");
+            if (enabled === null || enabled !== 'true') {
+                $("#cookie_assistant_container").css('display', 'block');
+            }
+        });
+    </script> 
+   <div class="dark bottom-left" id="cookie_assistant_wrapper"> 
+    <h2>Approve The Cookies</h2> 
+    <p>This website uses cookies to improve your user experience</p> 
+    <div class="buttons"> 
+     <a href="#" onclick="return false" class="btn-accept">I accept</a> 
+     <a href="/395-cookie-policy" class="btn-more" target="_blank">Read More</a> 
+    </div> 
+   </div> 
+  </div> 
+  <script>
+            var script = document.createElement('script');
+            var tstamp = new Date();
+            script.id = 'factorem';
+            script.src = 'http://cdm.cursecdn.com/js/gosugamers/cdmfactorem_min.js?misc=' + tstamp.getTime();
+            script.async = false;
+            script.type = 'text/javascript';
+            document.head.appendChild(script);
+        </script>  
+ </body>
+</html>
